@@ -1,0 +1,727 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+.foods {
+    background-image: url("	https://preview.colorlib.com/theme/vegefoods/images/bg_2.jpg");
+    background-position: center;
+    background-size: cover;
+    animation: anime 10s infinite;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes anime {
+    0% {
+        background-image: url(https://preview.colorlib.com/theme/vegefoods/images/bg_2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url(https://preview.colorlib.com/theme/vegefoods/images/bg_1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url(https://preview.colorlib.com/theme/vegefoods/images/bg_2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+h1 {
+    font-size: 71px;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 100;
+    font-family: "Amatic SC", cursive;
+}
+
+.foot h2 {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 20px;
+    color: #82ae46;
+
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+.nav-link {
+    font-family: 'icomoon' !important;
+    font-size: 11px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btnn {
+    background: #82ae46;
+    border: 1px solid #82ae46;
+    color: #fff;
+    border-radius: 25px;
+    padding: 6px 20px 8px 20px;
+    transition: 0.3s;
+}
+
+.btnn:hover {
+    background: none;
+    color: #82ae46;
+}
+
+.image img {
+    border: 2px solid rgba(255, 255, 255, 0.19);
+    border-radius: 50%;
+    padding: 9px;
+    margin: 6px;
+}
+
+.img1 {
+    background: #e4b2d6;
+    border-radius: 50%;
+    width: 100px;
+
+}
+
+.img2 {
+    background: #dcc698;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.img3 {
+    background: #a2d1e1;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.img4 {
+    background: #dcd691;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.heading {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Poppins", Arial, sans-serif;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.cardd span {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.cardd:hover .image {
+    background-color: #82ae46;
+    transition: 0.3s;
+}
+
+
+.vegetable {
+    background-image: url(https://preview.colorlib.com/theme/vegefoods/images/category.jpg);
+    height: 522px;
+    background-position: center;
+    background-size: cover;
+}
+button{
+    background-color: #82ae46;
+    border: 1px solid #82ae46;
+    color: #fff;
+    height: 40px;
+    width: 200px;
+}
+
+.top-l {
+    background: url(https://preview.colorlib.com/theme/vegefoods/images/category-1.jpg);
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+.btmm-l {
+    background: url(https://preview.colorlib.com/theme/vegefoods/images/category-2.jpg);
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-r {
+    background: url(https://preview.colorlib.com/theme/vegefoods/images/category-3.jpg);
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+.btmm-r {
+    background: url(https://preview.colorlib.com/theme/vegefoods/images/category-4.jpg);
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+.green {
+    background: #82ae46;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.vegetable h2 {
+    color: #82ae46;
+    font-family: "Lora", Georgia, serif;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.vegetable p {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: gray;
+    margin: 15px 0 20px 0;
+    text-decoration: line-through;
+}
+#product-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btnn2 {
+    background: #82ae46;
+    border: 1px solid #82ae46;
+    color: #fff;
+    border-radius: 25px;
+    padding: 6px 15px 10px 15px;
+    transition: 0.3s;
+}
+
+.btnn2:hover {
+    background: none;
+    color: #82ae46;
+}
+
+.imgg {
+    width: 213px;
+}
+
+.boxx {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.boxx:hover {
+    box-shadow: 0 4px 12px rgba(163, 163, 163, 0.2);
+    z-index: 1;
+}
+
+.boxx img {
+    transition: transform 0.3s ease;
+    width: 100%;
+}
+
+.boxx:hover img {
+    transform: scale(1.1);
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    opacity: 0;
+}
+
+.boxx:hover .price {
+    opacity: 0 !important;
+    display: none !important;
+}
+
+.boxx:hover .icons {
+    opacity: 1;
+}
+
+.icons i {
+    color: #fff;
+    width: 100%;
+    background: #82ae46;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.boxx h3 {
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-top: 40px;
+}
+
+.text .sale {
+    text-decoration: line-through !important;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.price {
+    color: #82ae46;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.title span {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Lora", Georgia, serif;
+    font-style: italic;
+    color: #82ae46;
+}
+
+.title h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.title p {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: gray;
+}
+
+.form {
+    background-color: #F7F6F2;
+}
+
+.footer-links {
+    padding: 0 !important;
+}
+
+.footer-links li {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 2.8;
+    font-weight: 400;
+}
+
+.footer-links li a {
+    color: #000000;
+    font-size: 14px;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.right {
+    padding-left: 20px;
+}
+
+.footer-contact {
+    padding: 0 !important;
+}
+
+.footer-contact span {
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.social-link i {
+    font-size: 26px;
+    color: #000000;
+    padding: 0 !important;
+}
+
+.footer-social {
+    padding: 0 !important;
+}
+
+.social-link {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: relative;
+}
+
+.scroll-top a {
+    position: absolute;
+    top: -30px;
+    left: 45%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    background: #82ae46;
+    cursor: pointer;
+    display: block;
+}
+
+.scroll-top a i {
+    font-size: 19px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: top 2s infinite;
+}
+
+@keyframes top {
+    0% {
+        padding-top: 40px;
+    }
+
+    100% {
+        padding-top: 5px;
+    }
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    height: 52px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    appearance: none;
+    position: relative;
+}
+
+footer button {
+    position: absolute;
+    font-size: 12px;
+    background: #82ae46 !important;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 16px 20px 16px 20px;
+    right: 216px;
+}
+
+.left h2 {
+    line-height: 1.5;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 23px;
+}
+
+.left span {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: gray;
+
+}
+
+input::placeholder {
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+.footer-link {
+    color: #82ae46;
+}
+
+.spinach {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    h2 {
+        position: relative;
+        font-size: 40px;
+        font-weight: 600;
+        color: #000000;
+        font-family: "Poppins", Arial, sans-serif;
+    }
+
+    P {
+        color: gray;
+        font-size: 18px;
+    }
+
+    h3 {
+        a {
+            color: #82ae46;
+            font-size: 30px;
+            font-family: "Lora", Georgia, serif;
+            font-style: italic;
+            font-weight: 400;
+        }
+    }
+}
+
+.price {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+
+    a {
+        font-weight: 500;
+        font-size: 18px;
+        font-family: "Poppins", Arial, sans-serif;
+        color: #82ae46;
+    }
+}
+
+.time {
+    width: 20%;
+    font-size: 40px;
+    font-weight: 500;
+    color: #82ae46;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+
+    span {
+        color: #000000;
+        font-size: 14px;
+        padding: 10px 0;
+    }
+}
+.users{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .user{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      }
+    .image{
+        text-align: center;
+    }
+}
+
+ .timee {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(https://preview.colorlib.com/theme/vegefoods/images/bg_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.containerr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.carousel {
+    width: 80%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 0 auto;
+    transition: transform 0.5s ease;
+    flex-wrap: wrap;
+
+}
+
+
+
+.btns button {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #82ae46;
+    border-radius: 50%;
+    background: rgb(130, 174, 70);
+    cursor: pointer;
+}
+.btns button i {
+    color: #fff;
+    font-size: 18px;
+} 
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+    cursor: pointer;
+}
+
+.btns2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 200px;
+    right: -820px;
+    cursor: pointer;
+}
+.item {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    .image {
+        width: 130px;
+    
+        img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+
+}
+
+
+.name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.position {
+    color: #777;
+    font-size: 1rem;
+}
+.text p{
+    height: 45px;
+    overflow: hidden;
+}
+
+.description {
+    color: #333;
+    font-size: 0.9rem;
+    margin: 10px;
+} 
+
+.subheading {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Lora", Georgia, serif;
+    font-style: italic;
+    color: #82ae46;
+}
+
+#menubutton{
+    width: 55px;
+}
+
+@media (max-width: 990px) {
+    .btns{
+        position: static;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menuu {
+        display: none;
+    }
+
+    .menuu.miniMenu {
+        display: flex !important;
+        background-color: #82ae46;
+        border: solid 2px #000000;
+        width: 100%;
+        margin-top: 6px;
+    }
+
+    .menuu li a {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+
+
+@media (max-width: 720px) {
+    .vegetable {
+        height: 330px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 31px;
+    }
+
+    button {
+        position: static;
+    }
+
+    .scroll-top a {
+        left: 40%;
+    }
+}
+
